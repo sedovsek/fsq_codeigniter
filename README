@@ -1,0 +1,9 @@
+fsq_codeigniter: Connect to foursquare to retrive your last location info.
+(requires curl)
+
+Replace YOUR_FSQ_USERNAME and YOUR_FSQ_PASSWORD width your username and password in ./config/foursquare.php
+
+$config['foursquare_user'] = 'YOUR_FSQ_USERNAME';
+$config['foursquare_pass'] = 'YOUR_FSQ_PASSWORD';
+
+See example at ./controllers/fsq.php
