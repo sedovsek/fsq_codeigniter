@@ -1,7 +1,8 @@
-fsq_codeigniter: Connect to foursquare to retrive your last location info.
-(requires curl)
+fsq_codeigniter is a Codeigniter library.
+It allows you to connect to foursquare and retrive your last location info.
+Requires curl to work.
 
-Replace YOUR_FSQ_USERNAME and YOUR_FSQ_PASSWORD width your username and password in ./config/foursquare.php
+Replace YOUR_FSQ_USERNAME and YOUR_FSQ_PASSWORD with your username and password in ./config/foursquare.php
 
 $config['foursquare_user'] = 'YOUR_FSQ_USERNAME';
 $config['foursquare_pass'] = 'YOUR_FSQ_PASSWORD';
